@@ -13,9 +13,9 @@ public class BuynSellStocks {
           
           //if current day price is greater than previos days, calculate profit and compare
             else{
-                int profit = prices[i] - buyPrice;
+                int profit = prices[i] - buyPrice; //today's profit
                 if (profit > maxProfit)
-                    maxProfit = profit;
+                    maxProfit = profit;   //gloobal profit
             }
 
         }

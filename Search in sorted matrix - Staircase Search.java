@@ -1,5 +1,6 @@
 public class Starircase_Search {
 
+    //Time Complexity O(n+m)  n=no. of rows & m=no. of cols
     public static void staircaseSearch(int matrix[][], int key){
       
       //took starting point as cell (row,0) i.e. BOTTOM LEFT cell int the matrix

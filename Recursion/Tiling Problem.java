@@ -1,7 +1,9 @@
 public class TilingProblem {
 
     public static int tilingProblem(int n){
+        
         //Base case
+        //when n == 0 placing no tile is also considered as 1 way.
         if(n==0 || n==1)
             return 1;
         

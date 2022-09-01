@@ -11,9 +11,11 @@ public class Diagonal_sum {
             sum += matrix[i][i];
 
           //secondary diagonal
-          /*if condition for duplicate sum in case of odd matrix 
+          /*
+          if condition is udes for duplicate sum in case of odd matrix 
           (e.x:In case of 3x3 matrix, middle term gets added twice, 
-          to avoid that if add if condition) */
+          to avoid that if condition is added)
+          */
             if(i != n-1-i)
                 //i+j = n-1
                 sum += matrix[i][n-1-i];

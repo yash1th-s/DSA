@@ -34,7 +34,7 @@ public class MajorityElement {
         int right = majorityCount(arr, mid+1, hi);
 
         if(left == right){
-            return arr[left];
+            return left;
         }
 
         int leftCount = countInRange(arr,left, lo, hi);

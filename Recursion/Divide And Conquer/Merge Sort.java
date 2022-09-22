@@ -29,7 +29,7 @@ public class MergeSort {
         int j = mid+1; //iterator for right part
         int k = 0; //iterator for temp
 
-        while(i<=si && j<=ei){
+        while(i<=mid && j<=ei){
             if(arr[i]<arr[j]){
                 temp[k] = arr[i];
                 i++; k++;
